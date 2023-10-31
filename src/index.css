@@ -4,18 +4,12 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background-color: #3498db;
-    /* Dodajte plavu pozadinu */
     display: flex;
     align-items: center;
-    /* Postavite tekst na sredinu stranice */
     justify-content: center;
-    /* Postavite tekst na sredinu stranice */
     height: 100vh;
-    /* Da biste centrirali vertikalno, koristimo visinu viewport-a */
     text-align: center;
-    /* Poravnavanje teksta na sredini */
     color: #fff;
-    /* Postavite boju teksta na belu */
 }
 
 code {
