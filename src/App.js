@@ -17,8 +17,11 @@ function App() {
         setToDoList(mapped);
     }
 
-    const resetFilter = () => {
-        setToDoList(data);
+    const handleFilter = () => {
+        let filtered = toDoList.filter(task => {
+            return !task.complete;
+        });
+        setToDoList(filtered); // This line filters the tasks for display
     }
 
     const addTask = (userInput) => {
