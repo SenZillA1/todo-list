@@ -40,8 +40,7 @@ function App() {
         handleFilter = { handleFilter }
         /> <
         ToDoForm addTask = { addTask }
-        /> <
-        /div>
+        /> </div >
     );
 }
 
