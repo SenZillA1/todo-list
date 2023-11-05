@@ -74,8 +74,4 @@
     "id": 19,
     "task": "Go to Store",
     "complete": false
-}, {
-    "id": 20,
-    "task": "Fill gas tank",
-    "complete": false
 }]

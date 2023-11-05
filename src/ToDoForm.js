@@ -21,8 +21,7 @@ const ToDoForm = ({ addTask }) => {
         onChange = { handleChange }
         placeholder = "Enter task..." / >
         <
-        button > Submit < /button> <
-        /form>
+        button > Submit < /button>  </form >
     );
 };
 
