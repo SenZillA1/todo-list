@@ -6,3 +6,8 @@ test('renders To Do List header', () => {
     const headerElement = screen.getByText(/To Do List/i);
     expect(headerElement).toBeInTheDocument();
 });
+
+test('Dodaj i kompletiraj item', () => {
+    render( < App / > );
+    // Implementirajte logiku testa prema potrebi
+});
